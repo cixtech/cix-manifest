@@ -4,24 +4,24 @@
   <default revision="master" remote="cix" sync-j="8" sync-c="true" sync-tags="false" />
 
   <project path="bsp/uefi_release/edk2" name="cix_opensource__release__edk2" groups="cix,bios" revision="9212cf3996ef8d134e8af38e5ab2c78a52d7b65c" upstream="cix_p1_dev" base="fb493ac84ebc6860e1690770fb88183effadebfb" />
-  <project path="bsp/uefi_release/edk2-non-osi" name="cix_opensource__release__edk2-non-osi" groups="cix,bios" revision="63b2454246d2e849bd3034b65614b5bedf68cf5d" upstream="cix_p1_dev" base="2edcaa51f3911b87073a70207b1fbbd815d5740c">
+  <project path="bsp/uefi_release/edk2-non-osi" name="cix_opensource__release__edk2-non-osi" groups="cix,bios" revision="e725a1d3fed47cdc7656d1cb4d77120951ce2eb5" upstream="cix_p1_dev" base="2edcaa51f3911b87073a70207b1fbbd815d5740c">
     <linkfile src="Platform/CIX/Sky1/PackageTool/build_and_package.sh" dest="bsp/uefi_release/build_and_package.sh" />
   </project>
-  <project path="bsp/uefi_release/edk2-platforms" name="cix_opensource__release__edk2-platforms" groups="cix,bios" revision="62bf75956660f617396d263e5b4dbd074b15c344" upstream="cix_p1_dev" base="8ea6ec38da8812f0703e8845fe639b8845704f96" />
+  <project path="bsp/uefi_release/edk2-platforms" name="cix_opensource__release__edk2-platforms" groups="cix,bios" revision="e5cb70f632756654672c66e0c2628d501feffa2c" upstream="cix_p1_dev" base="8ea6ec38da8812f0703e8845fe639b8845704f96" />
   <project path="bsp/uefi_release/tools/acpica" name="acpica" groups="cix,bios" revision="refs/tags/R2024_12_12" remote="acpica" />
   <project path="bsp/uefi_release/tools/gcc/gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf" name="cix_opensource__toolchain__gcc" groups="cix,bios" revision="bc3f28dea4a736fc8ca9b8e5b2958064c5257b9e" upstream="arm-10.2-2020.11-x86_64-aarch64-none-elf" base="" />
-  <project path="build-scripts" name="linux_repo__cix_build_scripts" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_opensource/chromium/chromium-cix" name="cix_opensource__chromium-cix" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_opensource/cix_unit_test" name="cix_opensource__cix_unit_test" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_opensource/gpu/gpu_kernel" name="cix_opensource__gpu_kernel" groups="cix" revision="refs/tags/p1_r53p0_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_opensource/isp/isp_driver" name="cix_opensource__isp_driver" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_opensource/npu/npu_driver" name="cix_opensource__npu_driver" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_opensource/os" name="linux_repo__cix_os_src" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_opensource/vpu/vpu_driver" name="cix_opensource__vpu_driver" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="component/cix_proprietary" name="cix_proprietary__cix_proprietary" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="debian12" name="linux_repo__cix_debian12" groups="cix" revision="refs/tags/p1_12.11_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
-  <project path="linux" name="cix_opensource__linux" groups="cix" revision="refs/tags/p1_6.6.89_v2.0.0" upstream="cix_k6.6.89_2026q2" base="71e4ec9b2abccce5adecb3b354d0d5003f6f88f2" />
-  <project path="tools/cix_binary" name="tools__cix_binary" groups="cix" revision="refs/tags/p1_v2.0.0" upstream="cix_k6.6.89_2026q2" base="" />
+  <project path="build-scripts" name="linux_repo__cix_build_scripts" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_opensource/chromium/chromium-cix" name="cix_opensource__chromium-cix" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_opensource/cix_unit_test" name="cix_opensource__cix_unit_test" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_opensource/gpu/gpu_kernel" name="cix_opensource__gpu_kernel" groups="cix" revision="refs/tags/p1_r53p0_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_opensource/isp/isp_driver" name="cix_opensource__isp_driver" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_opensource/npu/npu_driver" name="cix_opensource__npu_driver" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_opensource/os" name="linux_repo__cix_os_src" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_opensource/vpu/vpu_driver" name="cix_opensource__vpu_driver" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="component/cix_proprietary" name="cix_proprietary__cix_proprietary" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="debian12" name="linux_repo__cix_debian12" groups="cix" revision="refs/tags/p1_12.11_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
+  <project path="linux" name="cix_opensource__linux" groups="cix" revision="refs/tags/p1_6.6.89_v3.0.0" upstream="cix_k6.6.89_2026q3" base="71e4ec9b2abccce5adecb3b354d0d5003f6f88f2" />
+  <project path="tools/cix_binary" name="tools__cix_binary" groups="cix" revision="refs/tags/p1_v3.0.0" upstream="cix_k6.6.89_2026q3" base="" />
   <project path="tools/gcc/arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu" name="cix_opensource__toolchain__gcc" groups="cix" revision="ab23b9ca863c4ac3e088745b941d703143b3deed" upstream="arm-gnu-toolchain-12.3.rel1-x86_64-aarch64-none-linux-gnu" base="" />
   <project path="tools/gcc/gcc" name="cix_opensource__toolchain__gcc" groups="cix" revision="83577b5058d7d379733a410c9e7c4cb66b4d8015" upstream="ubuntu-9.4.0" base="" />
   <project path="tools/gcc/gcc-arm-10.2-2020.11-x86_64-aarch64-none-elf" name="cix_opensource__toolchain__gcc" groups="cix" revision="bc3f28dea4a736fc8ca9b8e5b2958064c5257b9e" upstream="arm-10.2-2020.11-x86_64-aarch64-none-elf" base="" />
